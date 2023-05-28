@@ -1,79 +1,138 @@
-<header>
-    <img src="img/Rectangle 25.png" alt="">
-    <p>
-        <img src="img/Grandes ofertas en comederos.jpg" alt="50px">
-        <img src="img/Menu.png" alt="15px">
-        <img src="img/Price.png" alt="15px">
-    </p> 
-</header>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Petshop</title>
+  </head>
+  <body>
+    <header>
+      <div class="line-up">
+        <p>Grandes ofertas en comederos</p>
+        <span>
+          <select name="idioma" id="idioma">
+            <option value="Español" selected>Español</option>
+            <option value="Inglés" selected>Español</option>
+          </select>
+  
+          <select name="moneda" id="moneda">
+            <option value= "Español" selected>Español</option>
+            <option value="ARG$" selected>ARG$</option>
+          </select>
+        </span>
+      </div>
+      <nav class="navigation">
+        <img src="img/Logo.png" alt="logo front cat and dog" />
 
-<nav>
-    <div>
-        <img src="img/Logo.jpg">     
-        <img src="img/Menu.png" alt="100px">
-    </div>
-</nav>
+        <ul>
+          <li>Categorías</li>
+          <li>Pets</li>
+          <li>Nosotros</li>
+          <li>Contactanos</li>
+        </ul>
+      </nav>
+    </header>
 
-<div>
-    <img src="img/bowl-and-pet-daities-on-green-background 1.png" alt="100px">
-    <img src="img/Es un placer tenerte aquí.png" alt="" srcset="">
-</div>
-
-<div>
-    <div>
+    <body>
+      <section class="banner">
+        <img
+          src="img/bowl-and-pet-daities-on-green-background 1.png"
+          alt="banner con un bowl de comida de perro y huesos"
+        />
         <div>
-            <img src="img/pawprint 1.png" alt="tampoco se">
+          <h1>!Es un placer tenerte aquí!</h1>
+          <p>!Comederos en descuento!</p>
+          <button>COMEDEROS</button>
         </div>
-        <h2>
-            <img src="img/Productos Destacados.jpg" alt="">
-            <img src="img/Comederos.png" alt="50px">
-            <img src="img/Accesorios.png" alt="50px" srcset="">
-            <img src="img/Comida.png" alt="50px">
-            <img src="img/churrasquito.png" alt="50px">
-            <img src="img/comedero.png" alt="50px">
-            <img src="img/Huesito.png" alt="">
-            <img src="img/Juguete Churrasquito.png.png" alt="">
-            <img src="img/Comedero para perro.png" alt="">
-            <img src="img/Juguete Huesito.png" alt="">
-            <img src="img/$150.png" alt="">
-            <img src="img/$250.png" alt="">
-            <img src="img/$650.png" alt="">
-        </h2>
-        
-        <h1>
-        <img src="img/Contáctanos.png" alt="" srcset="">
-        <img src="img/Rectangle 16.png" alt="">
-        <img src="img/Nombre y Apellido.png" alt="" srcset="">
-        <img src="img/Rectangle 16.png" alt="">
-        <img src="img/Ingresá tu correo electrónico.png" alt="" srcset="">
-        <img src="img/Rectangle 16.png" alt="">
-        <img src="img/Teléfono.png" alt="" srcset="">
-        </h1>
-    </div>
+      </section>
 
+      <section class="featured">
+        <div class="featured-headding">
+          <img src="img/pawprint 1.png" alt="huella perro" />
+          <h2>Productos Destacados</h2>
+          <p><span>Comederos</span>  - <span>Accesorios</span>  - <span>Comida</span></p>
+        </div>
+
+        <div class="product-cart-container">
+          <figure>
+            <img src="img/churrasquito.png" alt="churrasquito">
+            <figcaption>
+              <p>Juguete Churrasquito</p>
+              <span>$150</span>
+            </figcaption>
+          </figure>
+
+          <figure>
+            <img src="img/comedero.png" alt="comedero">
+            <figcaption>
+              <p>Comedero para perro</p>
+              <span>$250</span>
+            </figcaption>
+          </figure>
+
+          <figure>
+            <img src="img/Huesito.png" alt="Huesito">
+            <figcaption>
+              <p>Juguete Huesito</p>
+              <span>$650</span>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="contact-form">
+        <h3>Contáctanos</h3>
+        <form action="">
+          <input type="text" id="name" name="name" placeholder="Nombre y Apellido" />
+          <input type="text" id="name" name="name" placeholder="Ingresá tu correo electrónico"/>
+          <input type="text" id="name" name="name" placeholder="Teléfono"/>
+          <div>
+            <button id="resert">Resetear</button>
+            <button id="send">Enviar</button>
+          </div>
+        </form>
+      </section>
+    </body>
+
+    <footer class="pie">
+      <section>
         <div>
-            <img src="img/Rectangle 17.png" alt="">
-            <img src="img/Resetear.png" alt="" srcset="">
-            <img src="img/Rectangle 18.png" alt="">
-            <img src="img/Enviar.png" alt="">
+          <img class="mail" src="img/Group.png" alt="email logo">
+          <p>Suscríbete para más novedades</p>
         </div>
-    </div>
-</div>
+        <div class="text">
+          <input type="text" placeholder="Ingresá tu correo electronico">
+          <button>Sucribirse</button>
+        </div>
+        <section>
+          <article class="masAbajo">
+            <div>
+              <img src="img/Icono direccion.png" alt="ubicación icono">
+              <p>Localidad</p>
+              <span>Calle - provincia</span>
+            </div>
 
-<footer>
-    <img src="img/Rectangle 15.jpg" alt="" srcset="">
-    <img src="img/enviar-correo 1.png" alt="" srcset="">
-    <img src="img/Suscríbete para más novedades.png" alt="">
-    <img src="img/Rectangle 16.png" alt="">
-    <img src="img/Ingresá tu correo electrónico.png" alt="">
-    <img src="img/Rectangle 17.png" alt="" srcset="">
-    <img src="img/Suscribirme.png" alt="" srcset="">
-    
-    <img src="img/Rectangle 18 (1).png" alt="">
-    <img src="img/Location.jpg" alt="">
-    <img src="img/Phone.png" alt="">
-    <img src="img/Logo.jpg" alt="">
-    <img src="img/Correo.png" alt="">
-    <img src="img/Rectangle 25.png" alt="">
-    <img src="img/Todos los derechos reservados Front End.png" alt="">
-</footer>
+            <div>
+              <img src="img/Icono telefono.png" alt="telefono icono">
+              <p>Teléfono</p>
+              <span>Número de teléfono</span>
+            </div>
+
+            <div>
+              <img src="img/Icono correo.png" alt="email icono">
+              <p>Correo Electrónico</p>
+              <span>Dirección de correo</span>
+            </div>
+          </article>
+
+          <img class="loguito" src="img/Logo.png" alt="front cat and dog logo">
+        </section>
+      </section>
+      <section class="ultima">
+        <p>Todos los derechos reservados Front End</p>
+      </section>
+    </footer>
+  </body>
+</html>
