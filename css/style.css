@@ -1,717 +1,205 @@
-.top{
-  background-color: black;
-  color: white;
-  position: relative;
-  font-size: 10px;
-  /* width: 1024px; */
-  height: 20px;
-  
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.grandesOfertas{
-  position: absolute;
-  width: 138px;
-  height: 12px;
-  left: calc(50% - 138px/2 - 353px);
-  top: 4px;
-  
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 12px;
- 
-  color: #F3F3F3;
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
-.topMEnu{
-  width: 120px;
-  height: 20px;
-  position: absolute;
-
-  left: calc(50% - 20px/2 + 404px);
-  top: 4px;
+header .line-up {
+  background: #222222;
+  color: #fff;
+  display: flex;
+  padding: 0.5em 6em;
+  justify-content: space-between;
 }
 
-.toplinks {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 12px;
-  text-decoration: none;
-  color: #F3F3F3;
-  padding-left: 5px;
-  
+.line-up select {
+  color: #fff;
+  background: transparent;
+  border: none;
 }
 
-
-
-.encabezado {
-  background-color:  #F0A83E;
-  position: relative;
-  /* width: 1024px; */
-  height: 62px;
-
+header .navigation {
+  background: #f0a83e;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5em 3em;
 }
 
-.frontCatDog{
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 23px;
-  width: 200px;
-  height: 23px;
-  position: absolute;
-  left: 46px;
-  bottom: 20px;
-
-
-  
+.navigation ul {
+  display: flex;
+  gap: 1.5em;
+  list-style: none;
+  color: #fff;
 }
-
-.fuenteLogo11 {
-  color: #3C2313;
-}
-
-.funeteLogo22 {
-  color: #FFFFFF;
-
-}
-
-.encabezadoMenu{
-  margin: 0 auto;
-  position: absolute;
-  width: 380px;
-  height: 20px;
-  left: calc(50% - 210px/2 + 177px);
-  top: 24px;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 15px;
-  
-  color: #FFFFFF;
-
-
-}
-
-.encabezadoMenu li{
-  display: inline;
-  
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 15px;
-  color: #FFFFFF;
-}
-
-/* Espaciado menuBaner */
-.encabezadoMenu li a{
-  text-decoration: none;
-  padding: 10px;         
-  color: #FFFFFF;
- 
-}
-
-/* Banner */
 
 .banner {
-  background-image: url("../img/banner.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  height: 409px;
-  position: relative;
-  border-radius: 5px;
-  /* width: 1025px; */
-  height: 409px;
-}
-
-.banner .banerEsUnPlacer {
-
-  position: absolute;
-  width: 365px;
-  height: 54px;
-  left: 648px;
-  top: 156px;
-  
-  background: #FFFFFF;
-  border-radius: 5px;
-}
-
-.banner .banerEsUnPlacer article{
- 
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 35px;
-  text-align: center;
-  margin: 0 auto;
-  padding: 9px;
-
-  color: #3C2313;
-}
-
-
-.bannerDescuento {
-  position: absolute;
-  width: 190px;
-  height: 19px;
-  left: 740px;
-  top: 222px;
-  
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  
-  text-align: center;
-  
-  color: #3C2313;
-}
-
-
-.bannerComederos {
-  position: absolute;
-  width: 141px;
-  height: 49px;
-  left: 767px;
-  top: 257px;
-
-  background: #F0A83E;
-  border-radius: 5px;
-}
-
-.bannerComederos article{
- 
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  padding: 15px;
-  text-align: center;
-
-  color: #FFFFFF;
-}
-
-/* imagen */
-
-.patitaGrande {
-  margin-top:  20px;
-  text-align: center;
-}
-
-
-.productosDestacados {
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 47px;
-  color: #3C2313;
-  text-align: center;
-  margin-top: 17px;
-
-}
-
-/* -------------------- */
-
-.menumain {
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 18px;
-  color: #706d6d;
-  padding:0%;
-  text-align: center;
-  margin: 30px 0 60px 0 ;
-
-  
-}
-
-.menumain li {
-  display: inline;
- padding: 0 5px;
- 
-}
-
-.menumain li a {
-  text-decoration: none;
-}
-
-/* imgs productos destacados */
-
-.imagenesProductosDest {
-  height: 268.86px;
   position: relative;
 }
 
+.banner img {
+  width: 100%;
+  height: 410px;
+  object-fit: cover;
+  object-position: left;
+}
 
-.imgProductosDest1{
-  background-image: url("../img/churrasquito.png");
-  /* background-repeat: no-repeat;
-  background-size: 100%; */
-  width: 265px;
-  height: 268.86px;
+.banner div {
+  position: absolute;
+  top: 50%;
+  right: 5%;
   text-align: center;
-  position: absolute;
-  left: 50%;
-  transform: translate(-414.5px);
-  /* position: relative; */
- 
+  transform: translateY(-50%);
 }
 
+.banner h1 {
+  background: white;
+  padding: 0.5em;
+  border-radius: 0.25em;
+}
 
-.imgProductosDest2{
-  background-image: url("../img/comedero.png");
-  width: 265px;
-  height: 268.86px;
+.banner p {
+  margin: 0.8em 0;
+}
+
+.banner button {
+  background: #f0a83e;
+  border: none;
+  padding: 1.2em;
+  border-radius: 0.25em;
+  color: white;
+}
+
+.featured {
   text-align: center;
-  position: absolute;
-  top: 0%;
-  left: 50%;
-  transform: translate(-132.5px);
 }
 
+.featured-headding {
+  margin: 1em 0 3em 0;
+}
 
-.imgProductosDest3{
-  background-image: url("../img/Huesito.png");
-  width: 265px;
-  height: 268.86px;
+.featured-headding h2 {
+  margin-bottom: 0.5em;
+  font-size: 42px;
+}
+
+.featured-headding p {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+}
+
+.product-cart-container {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product-cart-container figure {
+  background: #fbfaf6;
+}
+
+.product-cart-container figcaption {
+  padding-bottom: 0.5em;
+}
+
+.contact-form {
   text-align: center;
-  position: absolute;
-  left: 50%;
-  top: 0%;
-  transform: translate(149.5px);
-
-  
+  margin: 5em 0;
 }
 
-
-.imgNombre {
-  position: absolute;
-  bottom: 3%;
-  left: 25%;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 18px;
-
-  color: #3C2313;
-  
+.contact-form h3 {
+  font-size: 28px;
+  margin-bottom: 1em;
 }
 
-.imgprice {
-  position: absolute;
-  bottom: 1%;
-  left: 45%;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 18px;
-
-  color: #F0A83E;
-
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
 }
 
-
-.seccionContactanos {
-  margin: 100px 0 50px 0;
-
-
-}
-
-.contactanos {
-  text-align: center;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 29px;
-
-  color: #3C2313;
-}
-
-
-.seccionContactanos article {
- 
+.contact-form input {
+  background: #3c2313;
   width: 340px;
   height: 40px;
-  
-  background: #3C2313;
-  border-radius: 15px;
-  
-   margin: 14px auto;              /*sepacion entre cajas contacto */
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 9px;
-
-  color: #FFFFFF;
-
+  border-radius: 1.2em;
+  border: none;
+  padding-left: 15px;
 }
 
-.seccionContactanos article p {
-  padding-top: 15px;
-  padding-left:15px;
+.contact-form input::placeholder {
+  color: white;
 }
 
-/* Reset Enviar */
-
-.resetEnviar{
-  height: 34px;
-  width: 227px;
-  text-align: center;
-  margin: 0 auto;
-  margin-bottom: 80px;
-  
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  color: #FFFFFF;
- 
+footer {
+  background: #3c2313;
 }
 
-.resetEnviar .reset {
-  float: left;
-  width: 110px;
-  height: 34px;
-  background: #8A8787;
-  border-radius: 15px;
-  margin: 0 auto;
-  
+.subscription {
+  background: #f0a83e;
+  padding: .5em 3em;
+  display: flex;
+  justify-content: space-between;
 }
 
-.resetEnviar .reset article{ 
-  width: 63px;
-  height: 19px;
-  text-align: center;
-  margin: 0 auto;
-  padding: 7.5px;
-  
+.subscription-text {
+  display: flex;
+  gap: 1em;
+  align-items: center;
 }
 
-.resetEnviar .enviar {
-  float: right;
-  width: 110px;
-  height: 34px;
-  background: #F0A83E;
-  border-radius: 15px;
-  margin: 0 auto;
+.subscription-text p {
+  color: #fbfaf6;
 }
 
-.resetEnviar .enviar article{ 
-  width: 63px;
-  height: 19px;
-  text-align: center;
-  margin: 0 auto;
-  padding: 7.5px;
-
-  
+.subscription-form {
+  display: flex;
+  gap: .5em;
 }
 
-/* suscripcion */
-
-.suscribete {
-  /* width: 1024px; */
-  height: 60px;
-  background: #F0A83E;
-  position: relative;
-}
-
-.suscribete .suscribeteleft{
-  width: 348px;
-  height: 23px;
-  
-
-
-}
-
-.suscribete .suscribeteleft .mailicon{
-  Width: 34.41px;
-  Height:20.28px;
-  margin: 0 auto;
-  float: left;
-  padding: 10.5px 0;
-  padding-left: 20px;
-
-
-}
-
-.suscribete .suscribeteleft .mailtexto {
-      width: 288px;
-      height: 23px;
-      font-family: 'Roboto';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 20px;
-      line-height: 23px;
-      text-align: center;
-      color: #FFFFFF;
-      float: right;
-      margin: 0 auto;
-      padding: 18.5px 0;
-      float: right;
-}
-
-/* derecha */
-
-.suscribeteRight {
-  position: absolute;
-  width: 271px;
+.subscription-form input {
   height: 40px;
-  background: #FFFFFF;
-  border-radius: 15px;
-  left: 61%;
-  top: 10px;
+  width: 271px;
+  border-radius: 1.2em;
+  border: none;
+  padding-left: 15px;
 }
 
-
-.suscribeteRight article {
-  width: 115px;
-  height: 11px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 9px;
-  line-height: 11px;
-  padding-left: 8px;
-  color: #A0A0A0;
-  padding-top: 14.5px ;
-
+.subscription-form button {
+  height: 40px;
+  padding: 0em 1.5em;
+  border-radius: 100vmax;
+  border: none;
+  color: #fff;
+  background: #3c2313;
 }
 
-.suscribirmeRight2 {
-  position: absolute;
-  width: 70px;
-  height: 34px;
-  background: #3C2313;
-  border-radius: 15px;
-  left: 88%;
-  top: 13px;
-}
+@media (max-width: 768px) {
+  header .line-up {
+    display: none;
+  }
 
-.suscribirmeRight2 article{
-  width: 49px;
-  height: 11px;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 9px;
-  line-height: 11px;
-  margin: 0 auto;
-  color: #FFFFFF;
-  padding-top: 11.5px;
+  .navigation ul {
+    display: none;
+  }
 
-}
+  .banner img {
+    height: 410px;
+    object-fit: cover;
+    object-position: left;
+  }
 
-/* footer */
-
-.footer {
- 
-  /* width: 1024px; */
-  height: 284px;
-  position: relative;
-  background: #3C2313;
-}
-
-/* -----------location-------------------- */
-.imgLocation {
-  position: absolute;
-  width: 66px;
-  height: 66px;
-  left: calc(50% - 66px/2 - 409px);
-  bottom: 197px;
-  
-  background: #786960;
-  border-radius: 50px;
-}
-
-.tituloLocation {
-  position: absolute;
-  width: 88px;
-  height: 23px;
-  left: calc(50% - 88px/2 - 307px);
-  bottom: 240px;
-  
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 23px;
-  
-  color: #FFFFFF;
-  
-}
-
-.descripLocation {
-  position: absolute;
-  width: 73px;
-  height: 12px;
-  left: calc(50% - 73px/2 - 314.5px);
-  bottom: 228px;
-  
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 10px;
-  line-height: 12px;
-  color: #8A8787;
-}
-
-/* -------------telefono------------- */
-
-.imgTelelefono {
-  position: absolute;
-  width: 66px;
-  height: 66px;
-  left: calc(50% - 66px/2 - 409px);
-  bottom: 111px;
-
-  background: #786960;
-  border-radius: 50px;
-}
-
-.tituloTelefono {
-  position: absolute;
-  width: 80px;
-  height: 23px;
-  left: calc(50% - 80px/2 - 311px);
-  bottom: 154px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 23px;
-
-  color: #FFFFFF;
-
-}
-
-.descripTelefono {
-  position: absolute;
-  width: 90px;
-  height: 12px;
-  left: calc(50% - 90px/2 - 306px);
-  bottom: 142px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 10px;
-  line-height: 12px;
-  
-  color: #8A8787;
-}
-
-/* ----------------imail--------------- */
-.imgEmail {
-  
-  position: absolute;
-  width: 66px;
-  height: 66px;
-  left: calc(50% - 66px/2 - 409px);
-  bottom: 25px;
-
-  background: #786960;
-  border-radius: 50px;
-}
-
-.tituloEmail {
-  position: absolute;
-  width: 168px;
-  height: 23px;
-  left: calc(50% - 168px/2 - 267px);
-  bottom: 68px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 23px;
-
-  color: #FFFFFF;
-
-}
-
-.descripEmail {
-  position: absolute;
-  width: 88px;
-  height: 12px;
-  left: calc(50% - 88px/2 - 307px);
-  bottom: 56px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 10px;
-  line-height: 12px;
- 
-  color: #8A8787;
-}
-
-.endLogo{
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 23px;
-  width: 200px;
-  height: 23px;
-  position: absolute;
-  right: 74px;
-  bottom: 130px;
-}
-
-.fuenteLogo1 {
-  color: #FFFFFF;
-}
-
-.funeteLogo2 {
-  color: #F0A83E;
-
-}
-
-
-/* derechos reservados */
-
-.derecheosReservados {
-
-  /* width: 1024px; */
-  height: 20px;
-  bottom: 0px;
-  background: #222222;
-  position: relative;
- 
-
-}
-
-.derecheosReservados article{
-  position: absolute;
-  width: 186px;
-  height: 12px;
-  left: calc(50% - 186px/2);
-  bottom: 4px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 10px;
-  line-height: 12px;
-  color: #FFFFFF;
+  .subscription {
+    flex-direction: column;
+    gap: .5em;
+    align-items: center;
+  }
 }
